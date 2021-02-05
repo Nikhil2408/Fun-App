@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,6 +19,9 @@ public class MainActivity extends AppCompatActivity {
     {
         ImageView imageView = (ImageView) findViewById(R.id.before_cookie_image);
         imageView.setImageResource(R.drawable.after_cookie);
+
+        TextView textView=(TextView) findViewById(R.id.before_cookie_text);
+        textView.setText("Thanks for feeding me!!");
     }
 
 }

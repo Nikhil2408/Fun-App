@@ -16,6 +16,7 @@
         android:scaleType="centerCrop"/>
 
     <TextView
+        android:id="@+id/before_cookie_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="I am hungry!! Click the below button to feed me."
